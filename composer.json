@@ -1,0 +1,19 @@
+{
+    "name": "vagrant/php_mvc",
+    "authors": [
+        {
+            "name": "Quang Trang Le",
+            "email": "trang.le2@asiantech.vn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Utils/Utils.php"
+        ]
+    }
+
+}
