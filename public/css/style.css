@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background: #85d1d48c;  
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: unset;
+}
+.add-news {
+  padding: 20px;
+  font-size: 25px;
+  background: rebeccapurple;
+  text-align: left;
+}
+.add-news a {
+  color: #fff;
+  margin: 0 10px;
+}
+.add-news a:hover {
+  color: red!important;
+}
+body > h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+body > table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+body > table thead {
+  background: rgb(119, 164, 179);
+  font-size: 20px;
+}
+body > table th, 
+body > table td {
+  border: 1px solid;
+  width: 25%;
+  padding: 7px;
+}
+body > table tbody tr:hover {
+  opacity: 0.8;
+}
+body > table tbody tr:nth-child(even) {
+  background: #e08748b3;
+}
+body > table tbody tr:nth-child(odd) {
+  background: #41d26785;
+}
+body > table tbody tr td a {
+  color: #400e90bf;
+}
+body > table tbody tr td a:hover {
+  color: red!important;
+}
+.pagination {
+  padding: 10px;
+  font-size: 18px;
+  
+}
+.pagination a {
+  margin: 0 7px;
+  color: #000;
+}
+.pagination a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.pagination span {
+  margin: 0 7px;
+  color: red;
+  font-weight: bold;
+}
